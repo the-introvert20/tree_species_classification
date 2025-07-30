@@ -1,0 +1,13 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+file filter=lfs diff=lfs merge=lfs -text
+like filter=lfs diff=lfs merge=lfs -text
+*.zip, filter=lfs diff=lfs merge=lfs -text
+or filter=lfs diff=lfs merge=lfs -text
+your filter=lfs diff=lfs merge=lfs -text
+large filter=lfs diff=lfs merge=lfs -text
+type filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+basic_cnn_tree_species.h5 filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
