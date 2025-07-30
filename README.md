@@ -1,37 +1,6 @@
 # 🌳 Tree Species Classification & Intelligence Assistant
 
-<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?logo=streamlit&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-blue?logo=scikitlearn&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![GitHub Stars](https://img.shields.io/github/stars/SatyamPandey-07/TREE_SPECIES_CLASSIFICATION?style=social)
-
-*An advanced AI-powered web application for tree species identification, location-based recommendations, and intelligent forestry insights using machine learning and computer vision.*
-
-[🚀 Quick Start](#-quick-start) • [📖 Features](#-features--capabilities) • [🧠 ML Architecture](#-machine-learning-architecture) • [📋 Setup Guide](#-complete-setup--usage-guide) • [🤝 Contributing](#-contributing)
-
-</div>
-
-## 📑 Table of Contents
-
-- [🎯 Overview](#-overview)
-- [🚀 Quick Start](#-quick-start)
-- [✨ Features & Capabilities](#-features--capabilities)
-- [�️ Dataset & Data Sources](#️-dataset--data-sources)
-- [🧠 Machine Learning Architecture](#-machine-learning-architecture)
-- [🛠️ Technical Implementation](#️-technical-implementation)
-- [📋 Complete Setup & Usage Guide](#-complete-setup--usage-guide)
-- [🎯 Usage Examples](#-usage-examples)
-- [📈 Performance Metrics & Limitations](#-performance-metrics--limitations)
-- [🚀 Deployment Options](#-deployment-options)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [📧 Contact & Support](#-contact--support)
-
----
 
 ## 🎯 Overview
 
