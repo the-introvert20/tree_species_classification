@@ -10,7 +10,7 @@
 
 *An advanced AI-powered web application for tree species identification, location-based recommendations, and intelligent forestry insights using machine learning and computer vision.*
 
-[🚀 Quick Start](#-quick-start) • [📖 Features](#-features--capabilities) • [🧠 ML Architecture](#-machine-learning-architecture) • [📋 Setup Guide](#-complete-setup--usage-guide) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [📖 Features](#-features--capabilities)  • [📋 Setup Guide](#-complete-setup--usage-guide) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -26,6 +26,12 @@ The **Tree Species Classification & Intelligence Assistant** is a comprehensive 
 Built with modern ML frameworks and deployed as an interactive web application.
 
 ---
+## DEMO Screen Shots
+### Example Screenshots
+
+
+![Screenshot 6](img_used/Screenshot%202025-07-30%20202958.png)
+![Screenshot 7](img_used/Screenshot%202025-07-30%20203119.png)
 
 
 ---
@@ -113,12 +119,7 @@ streamlit run streamlit_integrated.py
 
 ---
 
-## 🧠 Machine Learning Architecture
 
-<div align="center">
-<img src="docs/cnn_architecture.png" alt="CNN Architecture" width="800">
-<p><em>Custom CNN Architecture for Tree Species Image Classification</em></p>
-</div>
 
 ### 🔍 Location-Based Recommender System
 ```
@@ -137,17 +138,7 @@ Output: Top 5 Recommended Species
 - **Features**: Geographic + environmental + biological attributes
 - **Performance**: Sub-second response time for 1.38M records
 
-### 🧠 CNN Image Classifier
-```
-Input: 224×224×3 RGB Image
-    ↓
-Conv2D(32) → MaxPool → Conv2D(64) → MaxPool
-    ↓
-Conv2D(128) → MaxPool → Dropout(0.25)
-    ↓
-Flatten → Dense(512) → Dropout(0.5) → Dense(30)
-    ↓
-Output: Species Probability Distribution
+
 ```
 
 **Model Specifications:**
@@ -289,21 +280,11 @@ streamlit run streamlit_integrated.py
 
 ## 📈 Performance Metrics & Limitations
 
-<div align="center">
-<img src="docs/performance_metrics.png" alt="Performance Metrics" width="800">
-<p><em>Model Performance Comparison: Dataset Sizes and Response Times</em></p>
-</div>
-
-### Model Performance
-| **Model** | **Accuracy** | **Dataset Size** | **Training Time** |
-|-----------|--------------|------------------|-------------------|
-| KNN Recommender | N/A (Distance-based) | 1.38M records | ~30 seconds |
-| CNN Classifier | ~26% validation | 1,454 images | ~2 hours |
-
-<div align="center">
-<img src="docs/data_distribution.png" alt="Data Distribution" width="800">
-<p><em>Dataset Analytics: Geographic Distribution, Species Frequency, and Tree Characteristics</em></p>
-</div>
+![Screenshot 1](img_used/Screenshot%202025-07-30%20142901.png)
+![Screenshot 2](img_used/Screenshot%202025-07-30%20142910.png)
+![Screenshot 3](img_used/Screenshot%202025-07-30%20142920.png)
+![Screenshot 4](img_used/Screenshot%202025-07-30%20142928.png)
+![Screenshot 5](img_used/Screenshot%202025-07-30%20142941.png)
 
 ### Known Limitations
 - **CNN Accuracy**: Limited by small training dataset (1,454 images for 30 classes)
@@ -327,21 +308,11 @@ streamlit run streamlit_integrated.py
 streamlit run streamlit_integrated.py
 ```
 
-### Docker Deployment
-```dockerfile
-FROM python:3.13-slim
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-EXPOSE 8501
-CMD ["streamlit", "run", "streamlit_integrated.py"]
-```
-
 ### Cloud Platforms
 - **Streamlit Cloud**: Direct GitHub integration
-- **Heroku**: Web application hosting
-- **AWS/GCP/Azure**: Scalable cloud deployment
-- **Docker**: Containerized deployment
+
+
+
 
 ---
 
