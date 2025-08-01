@@ -1,4 +1,4 @@
-# 🌳 Tree Species Classification & Intelligence Assistant
+# 🌳 Tree Species Classification
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
